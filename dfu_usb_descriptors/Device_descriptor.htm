@@ -1,0 +1,166 @@
+<html><style><!--tr            { font-family:"Arial"; font-size:x-small; background-color:white; }.caption      { color:green; font-weight:bold; border-bottom:1px solid silver; border-top:1px solid silver; }.cell         { color:blue; }td            { font-family:"Arial";font-size:x-small; background-color:white; text-align:right; border-bottom:1px solid silver; border-right:1px solid silver; }.caption      { text-align:center; }.celltextc    { text-align:center;  }.celltextl    { text-align:left;  }.cellnumeric  { text-align:right; }--></style><head><title>Standard Requests #2</title></head><body>
+<p>
+<b><font face='Times New Roman' size=3>REQUEST SUMMARY</font></b>
+<table cellspacing=2 cellpadding=2 border=2>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Setup Data</font></b></td>
+<td><b>8006000100001200</b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Direction</font></b></td>
+<td><b>Device-to-host</b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Type</font></b></td>
+<td><b>Standard</b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Recipient</font></b></td>
+<td><b>Device</b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>bRequest</font></b></td>
+<td><b><font color=#AF5E03>GET_DESCRIPTOR</font></b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wValue</font></b></td>
+<td><b><font color=green>DEVICE</font></b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wIndex</font></b></td>
+<td><b><font color=blue>0x0000</font></b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wLength</font></b></td>
+<td><b>0x0012</b></td>
+</tr>
+</table>
+<p><b><font face='Times New Roman' size=3>DECODING INFORMATION</font></b></p></p><p style='font-weight:bold;'><table cellspacing=0 cellpadding=1 border=0 bgcolor=gray></table>
+<p style='font-weight:bold;'><table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bRequest</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;GET_DESCRIPTOR&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x06</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>bRequest HexVal: 0x06</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wValue</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;DEVICE type&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0100</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Type of Descriptor </FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wIndex</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;32&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;0x0000&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0000</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>index info</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p style='font-weight:bold;'>DEVICE Descriptor <table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;0&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x12 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x12</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Descriptor size is 18 bytes</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDescriptorType</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>DEVICE Descriptor Type</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bcdUSB</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp; 0x0100 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0100</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>USB Specification  version 1.00</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDeviceClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;32&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Each interface specifies its own class information</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDeviceSubClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;40&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Each interface specifies its own Subclass information</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDeviceProtocol</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;48&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>No protocols the device basis</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bMaxPacketSize0</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;56&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x40 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x40</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Maximum packet size for endpoint zero is 64</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>idVendor</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;64&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp; 0x0483 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0483</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Vendor ID is 1155: STMicroelectronics</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>idProduct</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;80&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp; 0xDF11 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0xDF11</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Product ID is 57105</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bcdDevice</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;96&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp; 0x2200 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x2200</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The device release number is 22.00</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iManufacturer</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;112&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The manufacturer string descriptor index is 1</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iProduct</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;120&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x02 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x02</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The product string descriptor index is 2</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iSerialNumber</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;128&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x03 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x03</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The serial number string descriptor index is 3</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bNumConfigurations</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;136&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The device has 1 possible configurations</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p></p></body></html>

@@ -1,0 +1,317 @@
+<html><style><!--tr            { font-family:"Arial"; font-size:x-small; background-color:white; }.caption      { color:green; font-weight:bold; border-bottom:1px solid silver; border-top:1px solid silver; }.cell         { color:blue; }td            { font-family:"Arial";font-size:x-small; background-color:white; text-align:right; border-bottom:1px solid silver; border-right:1px solid silver; }.caption      { text-align:center; }.celltextc    { text-align:center;  }.celltextl    { text-align:left;  }.cellnumeric  { text-align:right; }--></style><head><title>Standard Requests #9</title></head><body>
+<p>
+<b><font face='Times New Roman' size=3>REQUEST SUMMARY</font></b>
+<table cellspacing=2 cellpadding=2 border=2>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Setup Data</font></b></td>
+<td><b>8006000200002400</b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Direction</font></b></td>
+<td><b>Device-to-host</b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Type</font></b></td>
+<td><b>Standard</b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>Recipient</font></b></td>
+<td><b>Device</b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>bRequest</font></b></td>
+<td><b><font color=#AF5E03>GET_DESCRIPTOR</font></b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wValue</font></b></td>
+<td><b><font color=green>CONFIGURATION, Index 0</font></b></td>
+</tr>
+<tr>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wIndex</font></b></td>
+<td><b><font color=blue>0x0000</font></b></td>
+<td><b><font color=#0000FF face='Times New Roman' size=3>wLength</font></b></td>
+<td><b>0x0024</b></td>
+</tr>
+</table>
+<p><b><font face='Times New Roman' size=3>DECODING INFORMATION</font></b></p></p><p style='font-weight:bold;'><table cellspacing=0 cellpadding=1 border=0 bgcolor=gray></table>
+<p style='font-weight:bold;'><table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bRequest</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;GET_DESCRIPTOR&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x06</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>bRequest HexVal: 0x06</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wValue</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;CONFIGURATION type, Index 0&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0200</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Type of Descriptor </FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wIndex</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;32&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;0x0000&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0000</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>index info</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p style='font-weight:bold;'>CONFIGURATION Descriptor  (9 bytes) <table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;0&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x09 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x09</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Descriptor size is 9 bytes</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDescriptorType</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x02 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x02</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>CONFIGURATION Descriptor Type</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wTotalLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp; 0x0024 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0024</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The total length of data for this configuration is 36. This includes the combined length of all the descriptors returned 
+ Warning : The Value of wTotalLength is not equal to real length</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bNumInterfaces</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;32&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>This configuration supports 1 interfaces</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bConfigurationValue</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;40&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The value 1 should be used to select this configuration</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iConfiguration</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;48&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The device doesn't have the string descriptor describing this configuration</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bmAttributes</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;56&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0xC0 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0xC0</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Configuration characteristics : Bit 7: Reserved (set to one) 1 Bit 6: Self-powered          1 Bit 5: Remote Wakeup         0</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bMaxPower</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;64&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x32 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x32</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Maximum power consumption of the device in this configuration is 100 mA</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p style='font-weight:bold;'>INTERFACE Descriptor  (9 bytes) <table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;72&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x09 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x09</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Descriptor size is 9 bytes</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDescriptorType</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;80&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x04 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x04</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>INTERFACE Descriptor Type</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceNumber</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;88&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The number of this interface is 0.</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bAlternateSetting</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;96&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The value used to select the alternate setting for this interface is 0</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bNumEndpoints</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;104&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The number of endpoints used by this interface is 0 (excluding endpoint zero)</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;112&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0xFE &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0xFE</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface implements the Application Specific class</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceSubClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;120&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface implements the Device Firmware Upgrade Subclass</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceProtocol</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;128&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x02 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x02</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface uses the DFU Mode Protocol</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iInterface</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;136&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x04 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x04</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface string descriptor index is 4</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p style='font-weight:bold;'>INTERFACE Descriptor  (9 bytes) <table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;144&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x09 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x09</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Descriptor size is 9 bytes</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDescriptorType</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;152&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x04 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x04</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>INTERFACE Descriptor Type</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceNumber</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;160&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The number of this interface is 0.</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bAlternateSetting</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;168&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The value used to select the alternate setting for this interface is 1</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bNumEndpoints</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;176&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x00 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The number of endpoints used by this interface is 0 (excluding endpoint zero)</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;184&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0xFE &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0xFE</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface implements the Application Specific class</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceSubClass</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;192&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x01 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x01</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface implements the Device Firmware Upgrade Subclass</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bInterfaceProtocol</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;200&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x02 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x02</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface uses the DFU Mode Protocol</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>iInterface</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;208&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;   0x05 &nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x05</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The interface string descriptor index is 5</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p style='font-weight:bold;'>DFU Descriptor <table cellspacing=0 cellpadding=1 border=0 bgcolor=gray><tr class=caption><td class=caption style="border-left:1px solid silver;" >&nbsp;&nbsp;Field&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Length (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Offset (bits)&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Decoded&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;Hex Value&nbsp;&nbsp;</td>
+<td class=caption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bLength</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;216&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;9&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x09</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>The total size of the DFU descriptor.</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bDescriptorType</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;224&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;33&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x21</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>DFU_FUNCTIONAL Descriptor Type</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bmAttributes</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;8&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;232&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;11&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0B</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>DFU attributes<BR>&nbsp;&nbsp; [Bit 0] Download capable: Yes<BR>&nbsp;&nbsp; [Bit 1] Upload capable: Yes<BR>&nbsp;&nbsp; [Bit 2] Communicate via USB after Manifestation: No<BR>&nbsp;&nbsp; [Bit 3] Perform a bus detach-attach after DFU_DETACH: Yes<BR>&nbsp;&nbsp; [Bit 4-7] Reserved:0x0</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wDetachTimeOut</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;240&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;255&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x00FF</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Time, in milliseconds, that the device will wait after receipt of the DFU_DETACH request</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>wTransferSize</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;256&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;2048&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x0800</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Maximum number of bytes that the device can accept per control-write transaction</FONT>&nbsp;&nbsp;</td>
+</tr>
+<tr class=cell><td style="border-left:1px solid silver;" >&nbsp;&nbsp;<b><FONT color=black face=times>bcdDFUVersion</FONT></b>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;16&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;272&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;282&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;<FONT color=black>0x011A</FONT>&nbsp;&nbsp;</td>
+<td class=celltextl>&nbsp;&nbsp;<FONT color=#008080>Numeric expression identifying the version of the DFU Specification release</FONT>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<p></p></body></html>
